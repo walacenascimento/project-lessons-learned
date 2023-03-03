@@ -8,15 +8,80 @@ body {
 }
 
 #cabecalho {
-  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
   top: 0px;
   background-color: rgb(78, 216, 226);
+  border:1px solid gray;
+  width: 100%;
+
 }
 
 #titulo {
-  text-align: center;
+  margin: 10px;
+  padding: 0px;
+  border:none;
 }
 
-#minha_foto {
-  width: 400px;
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
 }
+
+.h2-licoes {
+  text-align: center;
+  margin: 10px;
+  font-family:monospace;
+
+}
+
+.div_licoes {
+  display: flex;
+  flex-direction:row;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content:space-evenly;
+}
+
+.div_licoes h3 {
+  text-align: center;
+  color: red;
+  margin-bottom: 8px;
+}
+
+/* .div_licoes ol {
+  border: 1px solid rebeccapurple;
+} */
+
+/* .div_licoes ul {
+  border: 1px solid rebeccapurple;
+} */
+
+.div_licoes ol li {
+  text-align:center;
+  list-style-type: none;
+  font-size: larger ;
+  line-height: 1.2;
+  font-style: italic ;
+
+}
+
+.div_licoes ul li {
+  text-align:center;
+  list-style-type: none;
+  font-size: larger;
+  line-height: 1.2;
+  font-style: italic;
+}
+
+
+/* img {
+  display: flex;
+  width: 200px;
+
+} */
