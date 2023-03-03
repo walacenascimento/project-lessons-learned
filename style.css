@@ -41,26 +41,22 @@ body {
 .div_licoes {
   display: flex;
   flex-direction:row;
-  /* border: 1px solid red; */
   margin-top: 20px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   justify-content:space-evenly;
 }
 
-.div_licoes h3 {
-  text-align: center;
-  color: red;
+.div_licoes ol h3 {
+  text-align:justify;
+  color: green;
   margin-bottom: 8px;
 }
 
-/* .div_licoes ol {
-  border: 1px solid rebeccapurple;
-} */
+.div_licoes ol {
+  margin-right: 10px;
+}
 
-/* .div_licoes ul {
-  border: 1px solid rebeccapurple;
-} */
 
 .div_licoes ol li {
   text-align:center;
@@ -68,7 +64,18 @@ body {
   font-size: larger ;
   line-height: 1.2;
   font-style: italic ;
+  font-weight: bold;
 
+}
+
+.div_licoes ul {
+  margin-left: 10px;
+}
+
+.div_licoes ul h3 {
+  text-align:justify;
+  color: rgb(248, 134, 4);
+  margin-bottom: 8px;
 }
 
 .div_licoes ul li {
@@ -77,11 +84,101 @@ body {
   font-size: larger;
   line-height: 1.2;
   font-style: italic;
+  font-weight: bold;
+}
+
+.aprendizado {
+  display: flex;
+  margin-top: 20px;
+}
+
+.lado-esquerdo {
+  border-right: 1px solid black;
+  margin-right: 8px;
+  margin-left: 4px;
+}
+
+.lado-esquerdo h3 {
+  text-align: left;
+}
+
+.lado-esquerdo p {
+  text-align: left;
+}
+
+.lado-direito {
+  margin-right: 4px;
+}
+
+.lado-direito h3 {
+  text-align: left;
+}
+
+.lado-direito p {
+  text-align: left;
 }
 
 
-/* img {
+.nav_link_tutorial{
   display: flex;
-  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
 
-} */
+nav p {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:nth-of-type(1) {
+  color: green;
+}
+
+nav a:nth-of-type(2) {
+  color: blue;
+}
+
+nav a:nth-of-type(3) {
+  color: orange;
+}
+
+nav a:hover {
+  /* color: rgb(78, 216, 226); */
+  font-size: 20px;
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: darkgray;
+
+}
+
+footer p {
+  margin-top:10px;
+}
+
+footer img {
+  margin-top: 5px;
+  width: 110px;
+  border-radius: 100%;
+  border-bottom: 1px solid red;
+}
+
+footer img:hover{
+  width: 200px;
+}
+
+.walace {
+margin-top: 2px;
+margin-bottom: 20px;
+border-bottom: 1px solid black;
+}
