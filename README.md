@@ -28,7 +28,7 @@ Desenvolver um site contendo uma série de informações sobre o que foi aprendi
 ## Instruções
 
 1. Clonar o repositório:
-  * `git clone git@github.com:walacenascimento/project-pixels-art.git`.
+  * `git clone git@github.com:walacenascimento/project-lessons-learned.git`.
 
 2. Instalando as dependências:
   * `npm install`
